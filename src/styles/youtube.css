@@ -1,0 +1,191 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+body {
+    background-color: #212121;
+}
+.bb {
+    border: solid black 1px;
+}
+.menuTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+.menuELogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.menuELogo i{
+    font-size: 25px;
+}
+.menuELogo img {
+    width: 100px;
+}
+.Search_Mic {
+    display: flex;
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    align-items: center;
+    height: 50px;
+
+}
+.Search_Mic div input {
+    width: 500px;
+    background-color: #181818;
+    font-size: 15px;
+    margin-left: 220px;
+    padding: 12px 10px;
+    border: #393939 solid 2px;
+    border-right: 0px;
+    color: #aeaeae;
+   
+}
+.Search_Mic div > abbr i {
+   
+    padding: 8px 18px;
+    background-color: #393939;
+    color: white;
+    border:   #393939 solid 6.5px;
+    margin-left: -5px;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+.Search_Mic > i {
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #181818;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 50%;
+    
+}
+
+.perfil_Notification {
+    display: flex;
+    width: 10%;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.perfil_Notification {
+    font-size: 20px;
+}
+.perfil_Notification div {
+    width: 50px;
+    height: 50px;
+    background-color: #181818;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.perfil_Notification div img {
+    width: 100%;
+    
+}
+
+.corpo_Youtube {
+    display: flex;
+    margin-top: 20px;
+}
+.menu_lateral {
+    width: 30%;
+    height: 50px;
+}
+.navMenu_Lateral {
+    border-bottom: #727272 solid 1px;
+    margin-right: 5px;
+}
+.navMenu_Lateral a {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: 20px;
+    display: flex; 
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 15px;
+    align-items: center;
+}
+.navMenu_Lateral a:hover {
+    background-color: #393939;
+}
+
+.navMenu_Lateral a li{
+    list-style: none;
+    font-size: 15px;
+}
+
+.borders {
+    
+    width: 1200px;
+    height: 50px;
+    border-top: rgba(208, 208, 208, 0.427) solid 1px;
+    border-bottom: rgba(208, 208, 208, 0.427) solid 1px;
+}
+.more_Videos {
+    padding: 30px;
+    background-color: #181818;
+    min-height: 300px;
+}
+.Tumb_video {
+    
+    
+}
+.Tumb_video div img {
+    margin-top: -17px;
+    width: 100%;
+    height: 190px;
+}
+.video_Model a{
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+    
+}
+.video_Model {
+    text-decoration: none;
+    width: 30%;
+    position: relative;
+}
+.video_Model .Tumb_video div div{
+    width: 80%;
+    margin-left: 20%;
+   
+}
+.titulo_Visualizacao h2{
+    font-size: 15px;
+}
+.titulo_Visualizacao p{
+    font-size: 10px;
+}
+.canal_Canal {
+    text-decoration: none;
+    position: absolute;
+    top: 210px;
+    left: 5px;
+    
+}
+.canal_Perfil div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    overflow: hidden;
+}
+.canal_Perfil img{
+    width: 100%;
+}
